@@ -8,8 +8,7 @@
 
 -   Docker Desktop
 -   WSL (Ubuntu)
--   PHP (v8.4+)
--   Node (v20+)
+-   Node (v20.19+ or v22.12)
 -   Postman (optional)
 
 ## Tech Stacks used
@@ -24,10 +23,11 @@
 2. ```git clone git@github.com:mhardaniel/laravel--user-roles--react-api.git```
 3. ```cd laravel--user-roles--react-api```
 4. ```cp .env.example .env```
-5. ```php artisan key:generate```
-6. ```./vendor/bin/sail up -d```
-7. ```sail artisan migrate --seed```
-8. you can access the api routes at: http://localhost:8000
+5. ```npm run docker:composer:install```
+7. ```./vendor/bin/sail up -d```
+8. ```./vendor/bin/sail artisan key:generate```
+9. ```./vendor/bin/sail artisan migrate --seed```
+10. you can access the api routes at: http://localhost:8000
 
 ## Running The Frontend
 
