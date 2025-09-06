@@ -122,16 +122,36 @@
 			"response": []
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
 			"key": "TOKEN",
-			"value": "",
-			"type": "default"
+			"value": "psyW30nWGQVtyln3jLd8DCtETpuekko8ZvYChXut"
 		},
 		{
 			"key": "APP_URL",
-			"value": "",
-			"type": "default"
+			"value": "http://localhost:8000"
 		}
 	]
 }
