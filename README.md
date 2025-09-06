@@ -47,7 +47,7 @@
 
 1. open your postman app
 2. import the file ``` postman_collection.json```
-3. http://localhost:8000/api/users - to create user with roles
+3. test the routes
 
 ## Screenshots
 <img width="2561" height="1469" alt="Image" src="https://github.com/user-attachments/assets/7f9ad1bb-a3fb-48b6-89d9-e034e5cecd3d" />
