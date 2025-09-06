@@ -13,9 +13,9 @@
 
 ## Tech Stacks used
 
--   Laravel (Sail)
+-   Laravel - v^12.0 (Sail)
 -   Database Connection (MYSQL)
--   React (vite, typescript, axios, zustand, tailwindcss, shadcn, zod)
+-   React - v^19.1.1 (vite, typescript, axios, zustand, tailwindcss, shadcn, zod)
 
 ## Running The Backend
 
