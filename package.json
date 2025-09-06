@@ -4,7 +4,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "docker:composer:install": "docker run --rm -v $(pwd):/app composer install --verbose --prefer-dist --no-progress --no-interaction --optimize-autoloader"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
